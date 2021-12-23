@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: SelfTech
+
+  thymeleaf:
+    prefix: classpath:/template/
+    suffix: .html
+    encoding: UTF-8
+    enabled: true
+    mode: HTML5
+
+#user:
+#  username: mama
+#  grants:
+#    - accessSys
+#    - changeAll
+#    - shutdown
+#  info: {age: 16, gender: male, profession: coder}
